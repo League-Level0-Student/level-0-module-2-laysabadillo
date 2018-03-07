@@ -34,16 +34,16 @@ public class StarShow {
 			
 			// 10. Set the X position of the robot to your X variable
 			// 11. Set the Y position of the robot to your Y variable
-			robot.moveTo(y, x);
+			robot.moveTo(x, y);
 		
 			// 9. Call the drawStar() method with your star size variable
 			drawStar(starSize);
 
 			// 14. Increase the X position by star size. See Figure 2.
-			
+			x = x + starSize;
 			
 			// 15. decrease the Y position by star size. See Figure 3.
-			
+			y = y - starSize;
 			
 			// 16. Increase the star size by 20
 			
