@@ -22,18 +22,9 @@ public class Validation {
 		Random Sausage = new Random();
 		randomNumber = Sausage.nextInt(4);}
 	
-		 private String convertSelection(int s){
-		       if (s==1)
-		            return "Your good at math.";
-		       else if (s==2)
-		            return "Hi";
-		       else if (s==3)
-		            return "";
-		 }
 	
 		//Sausage.nextInt((88 - -222) + 1) + -222
 		// 4. Repeat all the code above 10 times
 		
 		// 5. Find someone to test out your program. They will like it :)
-}
 }
