@@ -46,7 +46,7 @@ public class StarShow {
 			y = y - starSize;
 			
 			// 16. Increase the star size by 20
-			robot.setPenWidth(i + 20);
+			starSize = starSize + 20;
 			
 			// 17. Turn the robot 12 degrees 
 			robot.turn(12);
